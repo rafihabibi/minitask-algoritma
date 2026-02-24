@@ -1,5 +1,5 @@
 FUNCTIONhitungDiskon
-  DECLAREtotal : num
+  DECLAREtotal : num,
       diskon : float
 total <- 0
 BEGIN
