@@ -1,12 +1,15 @@
-FUNCTIONhitungDiskon
-  DECLAREtotal : num,
+FUNCTION hitungDiskon
+  DECLARE total : num,
       diskon : float
-total <- 0
+
 BEGIN
-IF total >  1000000 THEN
+total <- 1000000
+IF total >  1000000 
+  THEN
   diskon <- 0.10 * total
   OUTPUT("Dapat Diskon 10%")
-elseif total > 500000 THEN
+elseif total > 500000 
+  THEN
   diskon <- 0.5 * total
   OUTPUT("Dapat diskon 5%")
 else
