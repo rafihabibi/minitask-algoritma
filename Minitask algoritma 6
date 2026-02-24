@@ -1,4 +1,4 @@
-FUNCCTIONhitungDiskon
+FUNCTIONhitungDiskon
   DECLAREtotal,diskon : num
 total <- 0
 BEGIN
