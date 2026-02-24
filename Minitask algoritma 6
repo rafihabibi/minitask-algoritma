@@ -1,0 +1,10 @@
+total <- 0
+IF total >  1000000 THEN
+  diskon <- 0.10 * total 
+elseif total > 500000 THEN
+  diskon <- 0.5 * total
+else
+ OUTPUT("Tidak dapat Diskon")
+ENDIF
+
+
