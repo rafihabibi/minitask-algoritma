@@ -1,6 +1,6 @@
 1. Mulai
 2. siapkan variable x 
-3. hitung sisa bagi x = 2
-4. jika sisanya adalah 0 maka hasilnya genap
-5. jika sisanya adalah 1 maka hasilnya ganjil
+3. hitung sisa bagi x dengan angka 2
+4. jika sisanya adalah 0 maka menampilkan genap
+5. jika sisanya adalah 1 maka menampilkan ganjil
 6. selesai.
