@@ -7,7 +7,7 @@ IF total >  1000000 THEN
   OUTPUT("Dapat Diskon 10%")
 elseif total > 500000 THEN
   diskon <- 0.5 * total
-  OUTPUT("Dapat diskon 5%)
+  OUTPUT("Dapat diskon 5%")
 else
  OUTPUT("Tidak dapat Diskon")
 ENDIF
