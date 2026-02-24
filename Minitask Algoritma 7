@@ -1,18 +1,18 @@
 FUNCTION hitungPenggunaanListrik
-DECLARE totalGunaListrik : num
+  DECLARE totalGunaListrik : num
 
 BEGIN
-totalGunaListrik <- 100
-  IF totalGunaListrik > 200 
+  INPUT(totalGunaListrik)
+  IF totalGunaListrik > 200
   THEN
     totalGunaListrik <- totalGunaListrik * 5000
     OUTPUT(totalGunaListrik)
-  ELSEIF totalGunaListrik >= 100
+  ELSEIF totalGunaListrik > 100
   THEN
     totalGunaListrik <- totalGunaListrik * 3000
     OUTPUT(totalGunaListrik)
   ELSE
-    totaLGunaListrik <- totalGunaListrik * 2000
+    totalGunaListrik <- totalGunaListrik * 2000
     OUTPUT(totalGunaListrik)
   ENDIF
 END
