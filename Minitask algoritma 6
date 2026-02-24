@@ -1,5 +1,6 @@
 FUNCTIONhitungDiskon
-  DECLAREtotal,diskon : num
+  DECLAREtotal : num
+    DECLAREdiskon : float
 total <- 0
 BEGIN
 IF total >  1000000 THEN
