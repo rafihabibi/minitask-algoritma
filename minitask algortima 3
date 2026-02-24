@@ -1,6 +1,6 @@
 1. Mulai
 2. siapkan variable x 
-3. hitung sisa bagi x dengan cara menggunakan modulus % 2 === 0
+3. hitung sisa bagi x dengan cara  % 2 === 0
 4. jika sisanya == 0 maka hasilnya genap
 5. jika sisanya == 1 maka hasilnya ganjil
 6. tampil hasilnya.
