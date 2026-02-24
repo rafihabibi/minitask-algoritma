@@ -2,7 +2,7 @@ FUNCTION hitungPenggunaanListrik
   DECLARE totalGunaListrik : num
 
 BEGIN
-  Input(totalGunaListrik)
+  INPUT(totalGunaListrik)
   IF totalGunaListrik > 200
   THEN
     totalGunaListrik <- totalGunaListrik * 5000
